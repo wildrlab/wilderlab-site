@@ -1,0 +1,49 @@
+
+baseURL = "https://wilderlab.org/"
+languageCode = "en-us"
+title = "WILDeR Lab"
+theme = "PaperMod"
+paginate = 10
+
+# Params for PaperMod
+[params]
+  description = "Wildlife, Landscape, & Data Ecology Research"
+  author = "WILDeR Lab"
+  ShowReadingTime = true
+  defaultTheme = "auto"
+  disableSpecial1stPost = true
+
+[params.homeInfoParams]
+  Title = "WILDeR Lab"
+  Content = "Conservation & restoration through adaptive systems, data-intensive ecology, and collaborative fieldwork."
+
+# Main menu
+[[menu.main]]
+  name = "People"
+  url = "/people/"
+  weight = 10
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  name = "Data & Protocols"
+  url = "/data/"
+  weight = 30
+
+[[menu.main]]
+  name = "Handbook"
+  url = "/handbook/"
+  weight = 40
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 50
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 60
